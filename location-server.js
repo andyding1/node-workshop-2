@@ -11,7 +11,7 @@ var requestListener = function (req, response) {
             var data = JSON.parse(body);
             var firstResult = data.results[0];
             if(firstResult){
-                var location = data.results[0].geometry.location
+                var location = firstResult.geometry.location
                 response.writeHead(200);
                 response.end("The latitude is "+location.lat+" and the longitude is "+location.lng+".");
             }
