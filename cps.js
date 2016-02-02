@@ -3,7 +3,7 @@ function firstChar(string, func){
     func(string[0]);
 }
 
-firstChar("vsdg",function(firstLetter){
+firstChar("asdf",function(firstLetter){
     console.log(firstLetter);
 });
 
