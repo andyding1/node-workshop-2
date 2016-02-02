@@ -1,0 +1,22 @@
+{
+  "name": "dingworkspace",
+  "version": "1.0.0",
+  "description": "It's a ding workspace",
+  "main": "cps.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andyding1/node-workshop-2.git"
+  },
+  "keywords": [
+    "ding"
+  ],
+  "author": "Andy Ding <andy.ding89@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andyding1/node-workshop-2/issues"
+  },
+  "homepage": "https://github.com/andyding1/node-workshop-2#readme"
+}
