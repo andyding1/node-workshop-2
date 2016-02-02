@@ -1,7 +1,8 @@
 var http = require('http');
 
 var listener = function(request, response){
-    return response.end("Hello World");
+    response.writeHead(200);
+    response.end("Hello World");
 };
   
 var server = http.createServer(listener);

@@ -2,7 +2,8 @@ var http = require('http');
 
 var listener = function(request, response){
     setTimeout(function(){
-        return response.end("Hello World");
+        response.writeHead(200);
+        response.end("Hello World");
     }, 10000);
 };
   
